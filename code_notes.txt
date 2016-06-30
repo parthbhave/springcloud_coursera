@@ -1,0 +1,16 @@
+- Programming assignment completed for an online course related to Spring and cloud by Dr Jules White at Vanderbilt University
+
+- This project is a video repository exposed to its users as a Spring web service
+
+	1) Video.java under src\main\java\org\magnum\mobilecloud\video\repository
+		Model class representing a video 
+		- contains setters and getters for various properties, and methods to check equality based on hashcode
+	
+	2) VideoSvcController.java under src\main\java\org\magnum\mobilecloud\video\
+		Spring controller methods to serve HTTP requests for actions like -
+			- adding a video to a repository - POST
+			- like or unlike a video - POST
+			- get a list of videos - GET
+			- search videos by properties like id, duration, title - GET
+			
+- Some of the files are framework and test/client code, OAuth2 authentication provided by the instructor
